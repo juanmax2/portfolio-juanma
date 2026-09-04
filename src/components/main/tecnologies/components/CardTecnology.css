@@ -1,0 +1,44 @@
+.tech-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+.React {
+    background: linear-gradient(135deg, #00d8ff 0%, #1094c0 100%)
+}
+.Vite {
+    background: linear-gradient(135deg, #bd34fe 0%, #41d1ff 50%, #ffea84 100%)
+}
+.JavaScript {
+    background: linear-gradient(135deg, #f7df1e 0%, #c8b225 100%)
+}
+.TypeScript {
+    background: linear-gradient(135deg, #3178c6 0%, #1c508c 100%)
+}
+.Zustand {
+    background: linear-gradient(135deg, #443e38 0%, #25211e 100%)
+}
+.Tailwind {
+    background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%)
+}
+.tech-title {
+
+}
+
+.tech-img{
+    width: 80px;
+    position: absolute;
+    bottom: -10px;   
+    right: -10px;
+    transform: rotate(20deg);
+    opacity: 0.85;   
+    z-index: 1;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.tech-container:hover .tech-img {
+    transform: rotate(0deg) scale(1.1);
+    bottom: -5px;   
+    right: -5px; 
+}

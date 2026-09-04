@@ -1,0 +1,17 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar a:hover {
+    color: rgb(255, 201, 219);
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+

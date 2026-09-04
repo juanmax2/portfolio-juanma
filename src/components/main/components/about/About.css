@@ -1,0 +1,12 @@
+.about {
+   background-color: rgb(28, 26, 26);
+   width: 60%;
+   margin: auto;
+   padding: 1rem;
+   border-radius: 2rem;
+}
+
+.about p {
+    text-align: justify;
+    font-size: large;
+}

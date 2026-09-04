@@ -1,0 +1,9 @@
+.list-redes {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+

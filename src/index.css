@@ -1,0 +1,16 @@
+html {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  scroll-behavior: smooth;
+}
+
+#root {
+  width: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  /* padding: 2rem; */
+  margin: 0;
+}
